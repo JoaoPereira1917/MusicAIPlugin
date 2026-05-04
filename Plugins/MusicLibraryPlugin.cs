@@ -12,6 +12,7 @@ public class MusicLibraryPlugin
         [Description("The name of the song")] string song,
         [Description("The song's artist")] string artist,
         [Description("The song's genre")] string genre)
+        //Essa função adiciona uma música recém tocada, a descrição permite a IA inferir cada objeto
     {
         // 1. Lê o arquivo JSON atual
         //string path = Path.Combine(Directory.GetCurrentDirectory(), "Data", "recentlyplayed.txt");
